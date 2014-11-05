@@ -1,6 +1,6 @@
 FROM java:7
 
-ENV SOLR_VERSION 4.10.1
+ENV SOLR_VERSION 4.10.2
 
 RUN curl -sSL http://www.eu.apache.org/dist/lucene/solr/$SOLR_VERSION/solr-$SOLR_VERSION.tgz \
         | tar -v -C /opt -xz
